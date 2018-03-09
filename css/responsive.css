@@ -1,0 +1,79 @@
+@media screen and (max-width: 992px) and (min-width: 768px) and (max-height: 720px) {
+	.img-circle {
+		width: 30vh;
+	}
+
+	.main_menu {
+    	margin: 0.1rem 0;
+	}
+
+	h3 {
+    	padding: 0;
+		font-size: 1.3em;
+	}
+
+	.nick_name {
+    	margin: 0.1rem 0;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	.border_right {
+		border-right: none; 
+	}
+
+	#about {
+		padding-top: 15px;
+	}
+
+	#portfolio {
+		padding-top: 15px;
+	}
+
+}
+
+@media screen and (max-height: 450px) {
+
+	#main_col {
+    	height: 100%;
+	}
+
+	#about {
+		height: 100%;
+	}
+
+}
+
+@media screen and (max-height: 500px) and (max-width: 435px) {
+	#portfolio {
+		margin-top: 50px;
+	}
+}
+
+/*desktop*/
+/*@media screen and (max-width: 784px) and (min-width: 768px) and (min-height: 779px){
+	.fix1 {
+		position: fixed;
+	}
+
+	.fix2 {
+		position: absolute;
+    	top: -20vh;
+    	margin-left: 28%;
+    	width: 100%;
+	}
+
+	#about {
+		margin-left: 10%;
+	}
+
+	#portfolio {
+		margin-left: 10%;
+	}
+
+	#contact {
+		margin-left: 10%;
+	}
+}*/
